@@ -1,3 +1,9 @@
+# revision 21271
+# category Package
+# catalog-ctan /macros/latex/contrib/b1encoding
+# catalog-date 2011-02-01 08:52:21 +0100
+# catalog-license lppl1.3
+# catalog-version 1.0
 Name:		texlive-b1encoding
 Version:	1.0
 Release:	1
@@ -46,6 +52,7 @@ fonts.
 #- source
 %doc %{_texmfdistdir}/source/latex/b1encoding/b1encoding.dtx
 %doc %{_texmfdistdir}/source/latex/b1encoding/b1encoding.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
