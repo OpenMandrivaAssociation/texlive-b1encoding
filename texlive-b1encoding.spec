@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-b1encoding
 Version:	1.0
-Release:	10
+Release:	11
 Summary:	LaTeX encoding tools for Bookhands fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/b1encoding
