@@ -5,9 +5,9 @@ Summary:	LaTeX encoding tools for Bookhands fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/b1encoding
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/b1encoding.r21271.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/b1encoding.doc.r21271.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/b1encoding.source.r21271.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/b1encoding.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/b1encoding.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/b1encoding.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
