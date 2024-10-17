@@ -3,7 +3,7 @@ Version:	21271
 Release:	2
 Summary:	LaTeX encoding tools for Bookhands fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/b1encoding
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/b1encoding
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/b1encoding.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/b1encoding.doc.r%{version}.tar.xz
